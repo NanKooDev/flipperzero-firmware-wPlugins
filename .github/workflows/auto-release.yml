@@ -56,3 +56,5 @@ jobs:
           file: release.zip
           # Path to changelog file
           # changelog: # optional
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
